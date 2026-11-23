@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Runtime data: recordings, uploads, rendered clips
+server/storage/
+
+# Downloaded binaries and models (fetched on setup / first use)
+server/bin/
+server/models/hf-cache/
+server/models/person_yolox_s_2022nov.onnx
+server/models/*.part
